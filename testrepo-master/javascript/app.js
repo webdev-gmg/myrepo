@@ -145,7 +145,7 @@ $("#zipCode").on('click', function (event) {
 	var settings = {
 		"async": true,
 		"crossDomain": true,
-		"url": "http://data.tmsapi.com/v1.1/movies/showings?startDate="+today+"&zip="+zipCode+"&api_key=gvfz63zjy3q4pk92hdhxeekg",
+		"url": "https://data.tmsapi.com/v1.1/movies/showings?startDate="+today+"&zip="+zipCode+"&api_key=gvfz63zjy3q4pk92hdhxeekg",
 		"method": "GET"
 	}
 
